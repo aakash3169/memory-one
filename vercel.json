@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/memory", "destination": "/index.html" },
+    { "source": "/memory/campaign", "destination": "/index.html" },
+    { "source": "/memory/:id", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
